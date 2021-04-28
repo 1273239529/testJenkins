@@ -1,0 +1,249 @@
+.dot-bth{display: inline-block;}
+.dot-bth::after{content: ''; display: block; width: 5px; height: 5px; position: absolute; top: 0; bottom: 0; margin: auto; left: -10px; border-radius: 100%;}
+.dot-blue::after{background:#5790F4FF;}
+.dot-red::after{background:#ff8c5c;}
+.dot-green::after{background:#82D46CFF;}
+.dot-zi::after{background:#7155D9FF;}
+.dot-org::after{background:#FF8C5CFF;}
+.b-d-yellow{border:1px solid #EF793BFF; color: #EF793BFF; background:#fcf4ee; font-size: 0.22rem; display: inline-block; padding: 0.01rem 0.1rem; border-radius: 0.05rem}
+.border-h{border-right:2px solid #F7F7F7FF; height: 0.6rem; }
+.time-line{padding: 0.2rem 0; position: relative}
+.time-line::after{content: ''; display: block; width: 0.2rem; height: 0.2rem; background: #f7f7f7; border-radius: 100%; position: absolute; left: -0.1rem; top: 0; bottom: 0; margin: auto;}
+.time-line::before{content: ''; display: block; width: 0.2rem; height: 0.2rem; background: #f7f7f7; border-radius: 100%; position: absolute; right: -0.1rem; top: 0; bottom: 0; margin: auto;}
+	html {
+		background-color: #f1f1f1;
+	}
+
+	body {
+		background-color: #f1f1f1;
+	}
+
+	.PlanDetails header {
+		font-size: 18px;
+		background-color: #2A71C8;
+		color: white;
+		text-align: center;
+		color: #FFFFFF;
+		padding: 3% 0;
+	}
+
+	.PlanDetails header img {
+		float: left;
+		width: 5%;
+		margin: 1% 0 0 2%;
+	}
+
+	.planwrap {
+		background-color: #2A71C8;
+		height: 110px;
+	}
+
+	.PlanDetails .details .plandiv {
+		width: 90%;
+		top:0.4rem;
+		background: rgba(255, 255, 255, 1);
+		border-radius: 4px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		text-align: left;
+		font-size: 16px;
+		z-index: 999;
+		overflow: hidden;
+		margin-top: 0.2rem;
+		overflow: hidden;
+	}
+
+	.PlanDetails .BankLogo {
+		background: #fff;
+		border-radius: 50%;
+		position: relative;
+		top: 4px;
+	}
+
+	.PlanDetails .BankTitle {
+		/* float: left;
+		margin: 1.8% 2%;
+		font-size: 16px; */
+		margin-left: 6px;
+		display: inline-block;font-size: .3rem;
+	}
+
+	.PlanDetails .BankState {
+		float: right;
+		margin-right: 2%;
+		margin-top: 3px;
+		line-height: 32px;
+		width: 30%;
+	}
+
+	.PlanDetails .icolo {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+
+		margin-right: 5%;
+		margin-top: 5%;
+		border-radius: 50%;
+	}
+
+	.PlanDetails .BankSurplus {
+		width: 100%;
+		text-align: center;
+	}
+
+	.PlanDetails .BankSurplusP {
+		font-size: 14px;
+		/* margin-top: 10px; */
+		font-family: PingFang-SC-Regular;
+		color: rgba(177, 190, 214, 1);
+	}
+
+	.PlanDetails .BankSurplusP1 {
+		font-size: 28px;
+		/* padding: 5px 0 10px 0; */
+		font-family: PingFang-SC-Bold;
+		color: rgba(74, 122, 211, 1);
+	}
+
+	.PlanDetails .BankSurplusP2 {
+		color: rgba(177, 190, 214, 1);
+		font-size: 16px;
+	}
+
+	.PlanDetails .BankSurplus hr {
+		height: 1px;
+		background: rgba(230, 234, 243, 1);
+		border: none;
+	}
+
+	.Total {
+		float: left;
+		width: 33.3%;
+		font-size: 16px;
+		border-right: 1px solid #E6EAF3;
+		margin: 5% 0;
+	}
+
+	.TotalTex1 {
+		font-size: 14px;
+		color: #C1C1C1;
+	}
+
+	.TotalTex2 {
+		font-size: 19px;
+		color: #303030;
+	}
+
+	.procedures {
+		float: right;
+		width: 33.3%;
+		margin-top: 5%;
+		font-size: 16px;
+	}
+
+	.procedures img {
+		position: relative;
+		top: 4%;
+	}
+
+	.procedures1 {
+		color: #6D89BD;
+		font-size: 16px;
+	}
+
+	.procedures2 {
+		color: #4A7AD3;
+		font-size: 16px;
+	}
+
+	.bianhao {
+		text-align: left;
+		background: rgba(177, 193, 224, 1);
+		border-radius: 0rem 0 1rem 1rem;
+		font-size: 16px;
+		font-family: PingFang-SC-Regular;
+		color: rgba(255, 255, 255, 1);
+	}
+
+	.bianhao p {
+		margin-left: 5%;
+	}
+
+	.kk {
+		/* background: #fff; */
+		border-radius: 10px;
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	.kk .unbhr {
+		text-align: center;
+		display: inline-block;
+		margin: auto;
+		position: relative;
+		bottom: -10%;
+		background-color: #fcfcfc;
+		font-family: PingFang-SC-Regular;
+		color: rgba(168, 168, 168, 1);
+	}
+
+	.bill {
+		padding-bottom: 5%;
+		list-style-type: none;
+		text-align: center;
+		font-size: 14px;
+		margin: auto;
+	}
+
+	.bill li {
+		text-align: left;
+		border-bottom: 1px solid #F2F2F2;
+		/* padding: 0 10px; */
+		line-height: 18px;
+	}
+
+	.bill .tex1 {
+		/* padding-top: 3%; */
+		color: black;
+	}
+
+	
+
+	.bill .tex2 {
+		font-family: PingFangSC-Regular;
+		color: rgba(140, 140, 140, 1);
+	}
+
+	.bill .tex2 span {
+		float: right;
+		font-family: PingFangSC-Regular;
+		color: rgba(140, 140, 140, 1);
+	}
+	
+	.inp {
+		background: #fff;
+    	height: 70px;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		padding-top:10px; 
+	}
+
+	.BankState {
+		float: right;
+		margin-right: 5%;
+		font-size: 16px;
+	}
+	.res {
+		width: 40%;
+		border: none;
+		padding: 10px 20px;
+		font-size: 0.3rem;
+		border-radius: 3px;
+	}
+
+    .foot-box .sel{color:#4F8BF4; }
+    .foot-box{background: #fff;z-index: 2;;position: fixed; bottom:0; width: 100%; padding: 15px 0; box-shadow: 0px -2px 3px 3px rgba(245, 241, 241, 0.8)  }
+    .foot-l{height: 20px; border-right: 1px solid #cccc;}
+	
